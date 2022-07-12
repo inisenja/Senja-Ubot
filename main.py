@@ -13,8 +13,8 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
 
-API_ID = 6435225
-API_HASH = "4e984ea35f854762dcde906dce426c2d" 
+API_ID = 10382237
+API_HASH = "6e4642268034e926c875725182a1e32d" 
 LOG_GROUP = os.environ.get("LOG_GROUP", None)
 ALIVE_IMG = os.environ.get("ALIVE_PIC", None)
 STRING_SESSION1 = os.environ.get("STRING_SESSION1", None)
@@ -68,19 +68,19 @@ STRING_SESSION48 = os.environ.get("STRING_SESSION48", None)
 STRING_SESSION49 = os.environ.get("STRING_SESSION49", None)
 STRING_SESSION50 = os.environ.get("STRING_SESSION50", None) 
 
-SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "1669178360").split()}
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "1829900877").split()}
 DB_URL = os.environ.get("DATABASE_URL", None)
 MONGO_DBB = os.environ.get("MONGO_DB", None)
 
 if ALIVE_IMG:
     ALIVE_PIC = ALIVE_IMG
 else: 
-    ALIVE_PIC = 'https://telegra.ph/file/9563b48195f2f1c62cc5e.jpg'
+    ALIVE_PIC = 'https://telegra.ph/file/639b0779e91780c0dc397.jpg'
 
 if MONGO_DBB:
     MONGO_DB = MONGO_DBB
 else: 
-    MONGO_DB = "mongodb+srv://Zaid:Zaid@cluster0.4bszo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    MONGO_DB = "mongodb+srv://Senja24:Senja24@senja24.gzj4zeb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 if LOG_GROUP:
     Owner = LOG_GROUP
@@ -345,207 +345,207 @@ START_TIME = datetime.now()
 
 if bot1:
     bot1.start()
-    bot1.join_chat("Superior_Bots")
-    bot1.join_chat("Superior_Support")
+    bot1.join_chat("Iamsenja")
+    bot1.join_chat("SenjaaSupport")
 if bot2:
     bot2.start()
-    bot2.join_chat("Superior_Bots")
-    bot2.join_chat("Superior_Support")
+    bot2.join_chat("Iamsenja")
+    bot2.join_chat("SenjaaSupport")
 if bot3:
     bot3.start()
-    bot3.join_chat("Superior_Bots")
-    bot3.join_chat("Superior_Support")
+    bot3.join_chat("Iamsenja")
+    bot3.join_chat("SenjaaSupport")
 if bot4:
     bot4.start()
-    bot4.join_chat("Superior_Bots")
-    bot4.join_chat("Superior_Support")
+    bot4.join_chat("Iamsenja")
+    bot4.join_chat("SenjaaSupport")
 if bot5:
     bot5.start()
-    bot5.join_chat("Superior_Bots")
-    bot5.join_chat("Superior_Support")
+    bot5.join_chat("Iamsenja")
+    bot5.join_chat("SenjaaSupport")
 if bot6:
     bot6.start()
-    bot6.join_chat("Superior_Bots")
-    bot6.join_chat("Superior_Support")
+    bot6.join_chat("Iamsenja")
+    bot6.join_chat("SenjaaSupport")
 if bot7:
     bot7.start()
-    bot7.join_chat("Superior_Bots")
-    bot7.join_chat("Superior_Support")
+    bot7.join_chat("Iamsenja")
+    bot7.join_chat("SenjaaSupport")
 if bot8:
     bot8.start()
-    bot8.join_chat("Superior_Bots")
-    bot8.join_chat("Superior_Support")
+    bot8.join_chat("Iamsenja")
+    bot8.join_chat("SenjaaSupport")
 if bot9:
     bot9.start()
-    bot9.join_chat("Superior_Bots")
-    bot9.join_chat("Superior_Support")
+    bot9.join_chat("Iamsenja")
+    bot9.join_chat("SenjaaSupport")
 if bot:
     bot.start()
-    bot.join_chat("Superior_Bots")
-    bot.join_chat("Superior_Support")
+    bot.join_chat("Iamsenja")
+    bot.join_chat("SenjaaSupport")
 if bot11:
     bot11.start()
-    bot11.join_chat("Superior_Bots")
-    bot11.join_chat("Superior_Support")
+    bot11.join_chat("Iamsenja")
+    bot11.join_chat("SenjaaSupport")
 if bot12:
     bot12.start()
-    bot12.join_chat("Superior_Bots")
-    bot12.join_chat("Superior_Support")
+    bot12.join_chat("Iamsenja")
+    bot12.join_chat("SenjaaSupport")
 if bot13:
     bot13.start()
-    bot13.join_chat("Superior_Bots")
-    bot13.join_chat("Superior_Support")
+    bot13.join_chat("Iamsenja")
+    bot13.join_chat("SenjaaSupport")
 if bot14:
     bot14.start()
-    bot14.join_chat("Superior_Bots")
-    bot14.join_chat("Superior_Support")
+    bot14.join_chat("Iamsenja")
+    bot14.join_chat("SenjaaSupport")
 if bot15:
     bot15.start()
-    bot15.join_chat("Superior_Bots")
-    bot15.join_chat("Superior_Support")
+    bot15.join_chat("Iamsenja")
+    bot15.join_chat("SenjaaSupport")
 if bot16:
     bot16.start()
-    bot16.join_chat("Superior_Bots")
-    bot16.join_chat("Superior_Support")
+    bot16.join_chat("Iamsenja")
+    bot16.join_chat("SenjaaSupport")
 if bot17:
     bot17.start()
-    bot17.join_chat("Superior_Bots")
-    bot7.join_chat("Superior_Support")
+    bot17.join_chat("Iamsenja")
+    bot7.join_chat("SenjaaSupport")
 if bot18:
     bot18.start()
-    bot18.join_chat("Superior_Bots")
-    bot18.join_chat("Superior_Support")
+    bot18.join_chat("Iamsenja")
+    bot18.join_chat("SenjaaSupport")
 if bot19:
     bot19.start()
-    bot19.join_chat("Superior_Bots")
-    bot19.join_chat("Superior_Support")
+    bot19.join_chat("Iamsenja")
+    bot19.join_chat("SenjaaSupport")
 if bot20:
     bot20.start()
-    bot20.join_chat("Superior_Bots")
-    bot20.join_chat("Superior_Support")
+    bot20.join_chat("Iamsenja")
+    bot20.join_chat("SenjaaSupport")
 if bot21:
     bot21.start()
-    bot21.join_chat("Superior_Bots")
-    bot21.join_chat("Superior_Support")
+    bot21.join_chat("Iamsenja")
+    bot21.join_chat("SenjaaSupport")
 if bot22:
     bot22.start()
-    bot22.join_chat("Superior_Bots")
-    bot22.join_chat("Superior_Support")
+    bot22.join_chat("Iamsenja")
+    bot22.join_chat("SenjaaSupport")
 if bot23:
     bot23.start()
-    bot23.join_chat("Superior_Bots")
-    bot23.join_chat("Superior_Support")
+    bot23.join_chat("Iamsenja")
+    bot23.join_chat("SenjaaSupport")
 if bot24:
     bot24.start()
-    bot24.join_chat("Superior_Bots")
-    bot24.join_chat("Superior_Support")
+    bot24.join_chat("Iamsenja")
+    bot24.join_chat("SenjaaSupport")
 if bot25:
     bot25.start()
-    bot25.join_chat("Superior_Bots")
-    bot25.join_chat("Superior_Support")
+    bot25.join_chat("Iamsenja")
+    bot25.join_chat("SenjaaSupport")
 if bot26:
     bot26.start()
-    bot26.join_chat("Superior_Bots")
-    bot26.join_chat("Superior_Support")
+    bot26.join_chat("Iamsenja")
+    bot26.join_chat("SenjaaSupport")
 if bot27:
     bot27.start()
-    bot27.join_chat("Superior_Bots")
-    bot27.join_chat("Superior_Support")
+    bot27.join_chat("Iamsenja")
+    bot27.join_chat("SenjaaSupport")
 if bot28:
     bot28.start()
-    bot28.join_chat("Superior_Bots")
-    bot28.join_chat("Superior_Support")
+    bot28.join_chat("Iamsenja")
+    bot28.join_chat("SenjaaSupport")
 if bot29:
     bot29.start()
-    bot29.join_chat("Superior_Bots")
-    bot29.join_chat("Superior_Support")
+    bot29.join_chat("Iamsenja")
+    bot29.join_chat("SenjaaSupport")
 if bot30:
     bot30.start()
-    bot30.join_chat("Superior_Bots")
-    bot30.join_chat("Superior_Support")
+    bot30.join_chat("Iamsenja")
+    bot30.join_chat("SenjaaSupport")
 if bot31:
     bot31.start()
-    bot31.join_chat("Superior_Bots")
-    bot31.join_chat("Superior_Support")
+    bot31.join_chat("Iamsenja")
+    bot31.join_chat("SenjaaSupport")
 if bot32:
     bot32.start()
-    bot32.join_chat("Superior_Bots")
-    bot32.join_chat("Superior_Support")
+    bot32.join_chat("Iamsenja")
+    bot32.join_chat("SenjaaSupport")
 if bot33:
     bot33.start()
-    bot33.join_chat("Superior_Bots")
-    bot33.join_chat("Superior_Support")
+    bot33.join_chat("Iamsenja")
+    bot33.join_chat("SenjaaSupport")
 if bot34:
     bot34.start()
-    bot34.join_chat("Superior_Bots")
-    bot34.join_chat("Superior_Support")
+    bot34.join_chat("Iamsenja")
+    bot34.join_chat("SenjaaSupport")
 if bot35:
     bot35.start()
-    bot35.join_chat("Superior_Bots")
-    bot35.join_chat("Superior_Support")
+    bot35.join_chat("Iamsenja")
+    bot35.join_chat("SenjaaSupport")
 if bot36:
     bot36.start()
-    bot36.join_chat("Superior_Bots")
-    bot36.join_chat("Superior_Support")
+    bot36.join_chat("Iamsenja")
+    bot36.join_chat("SenjaaSupport")
 if bot37:
     bot37.start()
-    bot37.join_chat("Superior_Bots")
-    bot37.join_chat("Superior_Support")
+    bot37.join_chat("Iamsenja")
+    bot37.join_chat("SenjaaSupport")
 if bot38:
     bot38.start()
-    bot38.join_chat("Superior_Bots")
-    bot38.join_chat("Superior_Support")
+    bot38.join_chat("Iamsenja")
+    bot38.join_chat("SenjaaSupport")
 if bot39:
     bot39.start()
-    bot39.join_chat("Superior_Bots")
-    bot39.join_chat("Superior_Support")
+    bot39.join_chat("Iamsenja")
+    bot39.join_chat("SenjaaSupport")
 if bot40:
     bot40.start()
-    bot40.join_chat("Superior_Bots")
-    bot40.join_chat("Superior_Support")
+    bot40.join_chat("Iamsenja")
+    bot40.join_chat("SenjaaSupport")
 if bot41:
     bot41.start()
-    bot41.join_chat("Superior_Bots")
-    bot41.join_chat("Superior_Support")
+    bot41.join_chat("Iamsenja")
+    bot41.join_chat("SenjaaSupport")
 if bot42:
     bot42.start()
-    bot42.join_chat("Superior_Bots")
-    bot42.join_chat("Superior_Support")
+    bot42.join_chat("Iamsenja")
+    bot42.join_chat("SenjaaSupport")
 if bot43:
     bot43.start()
-    bot43.join_chat("Superior_Bots")
-    bot43.join_chat("Superior_Support")
+    bot43.join_chat("Iamsenja")
+    bot43.join_chat("SenjaaSupport")
 if bot44:
     bot44.start()
-    bot44.join_chat("Superior_Bots")
-    bot44.join_chat("Superior_Support")
+    bot44.join_chat("Iamsenja")
+    bot44.join_chat("SenjaaSupport")
 if bot45:
     bot45.start()
-    bot45.join_chat("Superior_Bots")
-    bot45.join_chat("Superior_Support")
+    bot45.join_chat("Iamsenja")
+    bot45.join_chat("SenjaaSupport")
 if bot46:
     bot46.start()
-    bot46.join_chat("Superior_Bots")
-    bot46.join_chat("Superior_Support")
+    bot46.join_chat("Iamsenja")
+    bot46.join_chat("SenjaaSupport")
 if bot47:
     bot47.start()
-    bot47.join_chat("Superior_Bots")
-    bot47.join_chat("Superior_Support")
+    bot47.join_chat("Iamsenja")
+    bot47.join_chat("SenjaaSupport")
 if bot48:
     bot48.start()
-    bot48.join_chat("Superior_Bots")
-    bot48.join_chat("Superior_Support")
+    bot48.join_chat("Iamsenja")
+    bot48.join_chat("SenjaaSupport")
 if bot49:
     bot49.start()
-    bot49.join_chat("Superior_Bots")
-    bot49.join_chat("Superior_Support")
+    bot49.join_chat("Iamsenja")
+    bot49.join_chat("SenjaaSupport")
 if bot50:
     bot50.start()
-    bot50.join_chat("Superior_Bots")
-    bot50.join_chat("Superior_Support")
+    bot50.join_chat("Iamsenja")
+    bot50.join_chat("SenjaaSupport")
 
-print("🎉 Successfully Deployed 🎉 @Timesisnotwaiting")
-print("Enjoy! Do visit @Superiro_Bots")
+print("🎉 Successfully Deployed 🎉 @SenjaaSupport")
+print("Enjoy! Do visit @Iamsenja")
 
 idle()
 
